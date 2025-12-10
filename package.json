@@ -1,0 +1,19 @@
+{
+  "name": "phase7-mongodb",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test:phase7": "node scripts/phase7_test_full.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "@faker-js/faker": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
